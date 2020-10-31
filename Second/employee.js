@@ -1,6 +1,6 @@
 class employee{
 
-    constructor(name,email,phone,amt){
+    constructor(name,email){
 
         this.name=name;
         this.email=email;
@@ -52,13 +52,5 @@ class employee{
             }
         else
         return (false)
- 
-
-            
-
-        
- 
-
-            
-
+          
     }
