@@ -4,7 +4,6 @@ class employee{
 
         this.name=name;
         this.email=email;
-        this.phone=phone;
 
     }
  
@@ -33,7 +32,7 @@ class employee{
         else
 
            {
-           alert("message");
+           alert("ALERT");
             return false;
            }
 
@@ -57,16 +56,7 @@ class employee{
 
             
 
-        validatePhone(emp){
-         var phone=emp.phone;
-        var phoneFor=/^\d{10}$/;
-
-          if (phone.match(phoneFor))
-
-            {
-             return true
-            }
-             return (false)
+        
  
 
             
